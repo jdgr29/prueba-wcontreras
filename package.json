@@ -1,0 +1,20 @@
+{
+  "name": "live-coding-excerse-backend-jr",
+  "version": "1.0.0",
+  "description": "**Cargo:** Desarrollador Backend Junior || GLOWICOM  \r **Duración total:** 60 min (coding) + 5 min (demo)",
+  "scripts": {
+    "test": "cross-env PORT=3000 jest --runInBand"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "Williams Contreras <wcontreras@glowicom.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
